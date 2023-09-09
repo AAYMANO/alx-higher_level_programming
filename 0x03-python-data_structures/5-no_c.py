@@ -1,7 +1,6 @@
 #!/usr/bin/python3
+# 5-no_c.py
+
 def no_c(my_string):
-    ret = " "
-    for a in range(len(my_string)):
-        if (my_string[a] != 'c' and my_string[a] != 'C'):
-            ret += my_string [a]
-    return ret
+    copy = [x for x in my_string if x != 'c' and x != 'C']
+    return ("".join(copy))
