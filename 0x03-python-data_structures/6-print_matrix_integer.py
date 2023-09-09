@@ -7,4 +7,4 @@ def print_matrix_integer(matrix=[[]]):
             print ()
         for a in range(len(submatrix)):
             printf("{:d}".format{submatrix[a]},
-                    end ="\n" if a is len(submatrix) - 1 else " ")
+                    end ="\n" if a is len(submatrix) - 1 else "")
